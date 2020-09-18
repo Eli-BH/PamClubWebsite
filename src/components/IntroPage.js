@@ -8,6 +8,7 @@ const IntroPage = () => {
   return (
     <div className="IntroPageDiv">
       <Link to="/Home">
+        {/* {//from react reveal} */}
         <Zoom>
           <Image
             src={require("../images/C.png")}
