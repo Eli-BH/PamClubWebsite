@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-color: rgb(1, 6, 61);
+}
+.introImage {
+  padding: 20px;
+}
+
+.headerImg {
+  width: 100px;
+  height: auto;
+}
+
+.quote {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+.informationGroup {
+  background-color: rgb(24, 23, 23);
+}
+
+.Activities {
+  width: 100vw;
+  height: 89.8vh;
+  text-align: center;
+}
+
+.fc .fc-toolbar-title {
+  margin: 0;
+}
+
+.footer {
+  height: 20px;
+  bottom: 0px;
+  background-color: green;
+}
+
+@media only screen and (min-width: 1025px) {
+  .Activities h2 {
+    font-size: 3em;
+    padding-top: 40px;
+  }
+  .introImage {
+    width: 1000px;
+    height: auto;
+  }
+  .introImage:hover {
+    width: 970px;
+    cursor: pointer;
+  }
+  .IntroPageDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .infoCarousel {
+    height: 40px;
+    width: auto;
+  }
+  .parallax1 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200725-WA0002-min.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200917-WA0034-min.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200917-WA0038-min.jpg");
+
+    /* Set a specific height */
+    min-height: 1150px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .information1,
+  .information2,
+  .information3 {
+    padding: 0px 0px 70px 0px;
+  }
+  .informationGroup h4 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .informationGroup p {
+    font-size: 2em;
+    padding: 60px;
+  }
+  .quote {
+    padding: 50px;
+    padding-bottom: 200px;
+  }
+
+  .informationGroup {
+    border-top: 1px solid rgba(71, 71, 71, 0.966);
+  }
+
+  .parallax1 p,
+  .parallax2 p,
+  .parallax1 p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .instagram h1 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .instagram {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .instaImage {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  body {
+    background-color: rgb(26, 26, 82);
+  }
+  .introImage {
+    width: 1000px;
+    height: auto;
+  }
+  .introImage:hover {
+    width: 970px;
+    cursor: pointer;
+  }
+  .IntroPageDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .infoCarousel {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .parallax1 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200725-WA0002-min.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200917-WA0034-min.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200917-WA0038-min.jpg");
+
+    /* Set a specific height */
+    min-height: 1200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .information1,
+  .information2,
+  .information3 {
+    padding: 0px 0px 70px 0px;
+  }
+  .informationGroup h4 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .information1 {
+    margin-top: 160px;
+  }
+  .informationGroup p {
+    font-size: 2em;
+    padding: 60px;
+  }
+  .quote {
+    padding: 50px;
+  }
+
+  .informationGroup {
+    border-top: 1px solid rgba(71, 71, 71, 0.966);
+  }
+  .parallax1 p,
+  .parallax2 p,
+  .parallax1 p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .instagram {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .instagram h1 {
+    margin-bottom: 60px;
+  }
+
+  .instaImage {
+    width: 100px;
+    height: auto;
+  }
+
+  .instaButton {
+    width: 50%;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(26, 26, 82);
+  }
+  .introImage {
+    width: 1000px;
+    height: auto;
+  }
+  .introImage:hover {
+    width: 970px;
+    cursor: pointer;
+  }
+  .IntroPageDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .infoCarousel {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .parallax1 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200725-WA0002-min.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200917-WA0034-min.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("../images/info_page/IMG-20200917-WA0038-min.jpg");
+
+    /* Set a specific height */
+    min-height: 1200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .information1,
+  .information2,
+  .information3 {
+    padding: 0px 0px 70px 0px;
+  }
+  .informationGroup h4 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .information1 {
+    margin-top: 80px;
+  }
+  .informationGroup p {
+    font-size: 1.5em;
+    padding: 60px;
+  }
+  .quote {
+    padding: 50px;
+  }
+
+  .informationGroup {
+    border-top: 1px solid rgba(71, 71, 71, 0.966);
+  }
+
+  .parallax1 p,
+  .parallax2 p,
+  .parallax1 p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .instagram {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 64px;
+  }
+
+  .instagram h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+  }
+
+  .instaImage {
+    width: 200px;
+    height: auto;
+  }
+
+  .instaButton {
+    width: 50%;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(26, 26, 82);
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .introImage {
+    width: 1000px;
+    height: auto;
+  }
+  .introImage:hover {
+    width: 970px;
+    cursor: pointer;
+  }
+  .IntroPageDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .infoCarousel {
+    display: none;
+  } */
+  .informationGroup p {
+    font-size: 1.2em;
+  }
+  .informationGroup p {
+    padding: 20px;
+  }
+  .quote h4 {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 20px !important;
+
+    margin: 0;
+  }
+
+  .fc .fc-scrollgrid-liquid {
+    height: 360px !important;
+  }
+  .Activities h2 {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .instagram h1 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .instagram {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .instaImage {
+    width: 100px;
+  }
+
+  .contactH1 {
+    font-size: 24px;
+  }
+}
