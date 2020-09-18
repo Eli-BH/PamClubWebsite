@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { Col, Container, Image } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 import { init } from "emailjs-com";
 import emailjs from "emailjs-com";
 

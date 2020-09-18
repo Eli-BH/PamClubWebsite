@@ -10,7 +10,6 @@ import Activities from "./components/Activities";
 import Header from "./components/Header";
 import Members from "./components/Members";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import "./styles/styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
