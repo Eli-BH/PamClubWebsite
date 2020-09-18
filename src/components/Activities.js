@@ -2,7 +2,6 @@ import React from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
-import Footer from "../components/Footer";
 
 const Activities = () => {
   const handleEventClick = (e) => {
@@ -28,7 +27,6 @@ const Activities = () => {
           className="calendar"
         />
       </div>
-      <Footer />
     </div>
   );
 };
