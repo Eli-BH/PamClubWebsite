@@ -19,7 +19,7 @@ const InfoPage = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <p>Photo Credits</p>
+            <p>Avian Brown</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -30,7 +30,7 @@ const InfoPage = () => {
           />
 
           <Carousel.Caption>
-            <p>Photo Credits</p>
+            <p>Elijah Henderson</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
