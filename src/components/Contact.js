@@ -123,6 +123,8 @@ const Contact = () => {
           href="https://www.instagram.com/jjay.pam.photography/"
           variant="outline-primary"
           className="instaButton"
+          target="_blank"
+          rel="noopener"
         >
           <Image
             className="instaImage"
